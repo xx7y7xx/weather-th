@@ -1,5 +1,13 @@
 #!/bin/bash
 
+#
+# Extract images from : https://weather.tmd.go.th/composite/index_composite.html
+# * https://weather.tmd.go.th/composite/images/map_THA_province.png
+# * https://weather.tmd.go.th/composite/images/map_THA_district.png
+# * https://weather.tmd.go.th/composite/images/map_THA_basin.png
+# * https://weather.tmd.go.th/composite/images/map_THA_stream.png
+#
+
 # Create directories called "images" and "images_with_bg" to store downloaded PNG images and images with background added
 mkdir -p images images_with_bg
 
